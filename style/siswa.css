@@ -70,11 +70,9 @@
 .btn i {
   font-size: 13px;
 }
-/* Reset */
 * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
 body { background: #f4f6f9; }
 
-/* Navbar */
 .navbar {
   display: flex; justify-content: space-between; align-items: center;
   background: #0d2d62; color: #fff; padding: 10px 20px;
@@ -91,7 +89,6 @@ body { background: #f4f6f9; }
 }
 .btn-logout:hover { background: #a71d2a; }
 
-/* Sidebar */
 .sidebar {
   position: fixed; top: 60px; left: 0; width: 220px; height: 100%;
   background: #1b3b72; color: #fff; padding: 15px; transition: transform 0.3s;
@@ -104,10 +101,8 @@ body { background: #f4f6f9; }
 .sidebar a:hover, .sidebar a.active { background: #0d2d62; }
 .sidebar-footer { margin-top: 20px; font-size: 13px; color: #ccc; }
 
-/* Sidebar toggle */
 .sidebar.open { transform: translateX(-100%); }
 
-/* Content */
 .content {
   margin-left: 240px; padding: 80px 20px 20px; transition: margin-left 0.3s;
 }
@@ -121,7 +116,6 @@ body { background: #f4f6f9; }
 }
 .btn-add:hover { background: #084298; }
 
-/* Table */
 .data-table { width: 100%; border-collapse: collapse; background: #fff; }
 .data-table th, .data-table td {
   border: 1px solid #ddd; padding: 10px; text-align: center; font-size: 14px;
@@ -129,7 +123,6 @@ body { background: #f4f6f9; }
 .data-table th { background: #f8f9fa; }
 .profile-img { width: 35px; height: 35px; border-radius: 50%; object-fit: cover; }
 
-/* Buttons */
 .btn-edit, .btn-delete {
   border: none; padding: 6px 10px; border-radius: 4px; cursor: pointer; color: #fff;
 }
